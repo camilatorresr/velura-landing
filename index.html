@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <!-- ENCABEZADO -->
     <header>
         <img src="logo.png" alt="Velura Logo" class="logo">
-        <button class="btn-header" onclick="document.getElementById('pedido').scrollIntoView();">¡Compra Ahora!</button>
+        <a href="#pedido" class="btn">¡Compra Ahora!</a>
     </header>
 
     <!-- SECCIÓN PRINCIPAL -->
     <section class="hero">
         <h1>✨ Promoción Especial Día de la Mujer ✨</h1>
         <p>Descubre nuestros kits irresistibles con envío gratis y pago contraentrega.</p>
-        <img src="kits.jpg" alt="Imagen de los kits Velura">
+        <img src="kits.jpg" alt="Imagen de los kits Velura" class="hero-image">
         <a href="#pedido" class="btn">¡Elige tu Kit!</a>
     </section>
 
@@ -43,17 +42,17 @@
         <form id="orderForm">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" required>
-
+            
             <label for="telefono">Teléfono:</label>
             <input type="tel" id="telefono" required>
-
+            
             <label for="kit">Selecciona tu kit:</label>
             <select id="kit">
                 <option value="placer_absoluto">Kit Placer Absoluto</option>
                 <option value="seduccion_perfecta">Kit Seducción Perfecta</option>
             </select>
-
-            <button type="submit">Comprar con pago contraentrega</button>
+            
+            <button type="submit" class="btn">Comprar con pago contraentrega</button>
         </form>
     </section>
 
@@ -61,10 +60,12 @@
     <section id="testimonios">
         <h2>Lo que dicen nuestras clientas</h2>
         <div class="testimonio">
-            <p>"La mejor compra que he hecho, todo de excelente calidad y super sexy."</p>
+            <img src="cliente1.jpg" alt="Foto de Laura G" class="testimonio-img">
+            <p>"La mejor compra que he hecho, todo de excelente calidad y súper sexy."</p>
             <p>- Laura G.</p>
         </div>
         <div class="testimonio">
+            <img src="cliente2.jpg" alt="Foto de Andrés R" class="testimonio-img">
             <p>"Mi pareja quedó encantada, definitivamente volveré a comprar."</p>
             <p>- Andrés R.</p>
         </div>
