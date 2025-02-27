@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <!-- ENCABEZADO -->
     <header>
         <img src="logo.png" alt="Velura Logo" class="logo">
-        <a href="#pedido" class="btn">¡Compra Ahora!</a>
+        <a href="https://wa.me/tu-numero" class="whatsapp-btn">💬 Chatea con nosotros</a>
     </header>
 
     <!-- SECCIÓN PRINCIPAL -->
     <section class="hero">
         <h1>✨ Promoción Especial Día de la Mujer ✨</h1>
         <p>Descubre nuestros kits irresistibles con envío gratis y pago contraentrega.</p>
-        <img src="kits.jpg" alt="Imagen de los kits Velura" class="hero-image">
-        <a href="#pedido" class="btn">¡Elige tu Kit!</a>
+        <img src="kits.jpg" alt="Imagen de los kits Velura">
     </section>
 
-    <!-- SECCIÓN DE KITS -->
+    <!-- DESCRIPCIÓN DE KITS -->
     <section id="kits">
         <h2>Elige el kit perfecto para ti</h2>
         <div class="kits-container">
@@ -30,51 +30,40 @@
                 <h3>Kit Placer Absoluto</h3>
                 <p>Incluye: Lubricante, splash, crema, lencería o disfraz, vibrador o succionador.</p>
                 <p class="precio"><span class="antes">$200,000</span> <span class="despues">$150,000</span></p>
-                <a href="#pedido" class="btn">Comprar</a>
+                <button>Comprar</button>
             </div>
             <div class="kit">
                 <img src="kit2.jpg" alt="Kit Seducción Perfecta">
                 <h3>Kit Seducción Perfecta</h3>
                 <p>Incluye: Lencería o disfraz, vibrador, lubricante, splash.</p>
                 <p class="precio"><span class="antes">$180,000</span> <span class="despues">$135,000</span></p>
-                <a href="#pedido" class="btn">Comprar</a>
-            </div>
-            <div class="kit">
-                <img src="kit3.jpg" alt="Kit Magia Irresistible">
-                <h3>Kit Magia Irresistible</h3>
-                <p>Incluye: Splash, crema, bala vibradora o anillo vibrador, lubricante.</p>
-                <p class="precio"><span class="antes">$160,000</span> <span class="despues">$120,000</span></p>
-                <a href="#pedido" class="btn">Comprar</a>
-            </div>
-            <div class="kit">
-                <img src="kit4.jpg" alt="Kit Toque de Tentación">
-                <h3>Kit Toque de Tentación</h3>
-                <p>Incluye: Perfume, bala vibradora o anillo vibrador, lubricante.</p>
-                <p class="precio"><span class="antes">$140,000</span> <span class="despues">$105,000</span></p>
-                <a href="#pedido" class="btn">Comprar</a>
+                <button>Comprar</button>
             </div>
         </div>
+    </section>
+
+    <!-- SECCIÓN BENEFICIOS -->
+    <section class="benefits">
+        <h2>¿Por qué elegir nuestros kits?</h2>
+        <p>💖 Productos de alta calidad</p>
+        <p>📦 Envío gratis</p>
+        <p>💳 Pago contraentrega</p>
     </section>
 
     <!-- FORMULARIO DE PEDIDO -->
     <section id="pedido">
         <h2>Haz tu pedido</h2>
         <form id="orderForm">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" required>
-            
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" required>
-            
-            <label for="kit">Selecciona tu kit:</label>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="email" id="correo" placeholder="Correo" required>
+            <input type="tel" id="telefono" placeholder="WhatsApp" required>
+            <input type="text" id="direccion" placeholder="Dirección de entrega" required>
+            <input type="text" id="ciudad" placeholder="Ciudad" required>
             <select id="kit">
                 <option value="placer_absoluto">Kit Placer Absoluto</option>
                 <option value="seduccion_perfecta">Kit Seducción Perfecta</option>
-                <option value="magia_irresistible">Kit Magia Irresistible</option>
-                <option value="toque_tentacion">Kit Toque de Tentación</option>
             </select>
-            
-            <button type="submit" class="btn">Comprar con pago contraentrega</button>
+            <button type="submit">Comprar con pago contraentrega</button>
         </form>
     </section>
 
@@ -82,18 +71,17 @@
     <section id="testimonios">
         <h2>Lo que dicen nuestras clientas</h2>
         <div class="testimonio">
-            <img src="cliente1.jpg" alt="Foto de Laura G" class="testimonio-img">
-            <p>"La mejor compra que he hecho, todo de excelente calidad y súper sexy."</p>
+            <img src="cliente1.jpg" alt="Testimonio 1">
+            <p>"La mejor compra que he hecho, todo de excelente calidad y super sexy."</p>
             <p>- Laura G.</p>
         </div>
         <div class="testimonio">
-            <img src="cliente2.jpg" alt="Foto de Andrés R" class="testimonio-img">
+            <img src="cliente2.jpg" alt="Testimonio 2">
             <p>"Mi pareja quedó encantada, definitivamente volveré a comprar."</p>
             <p>- Andrés R.</p>
         </div>
     </section>
 
-    <!-- PIE DE PÁGINA -->
     <footer>
         <p>© 2025 Velura - Todos los derechos reservados</p>
     </footer>
