@@ -1,52 +1,48 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f6edea;
-    color: #593131;
     margin: 0;
     padding: 0;
-    text-align: center;
+    background-color: #f6edea;
+    color: #593131;
 }
 
-/* Encabezado */
 header {
-    background-color: #db9880;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 20px;
+    background-color: #db9880;
 }
 
 .logo {
-    height: 50px;
-    margin-left: 20px;
+    width: 120px;
 }
 
-.btn {
+.whatsapp-btn {
     background-color: #593131;
-    color: #fff;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
 }
 
-/* Sección de Kits */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
 .kits-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
 
 .kit {
-    background: #fff;
-    padding: 15px;
+    background: white;
+    padding: 20px;
     border-radius: 10px;
-    width: 250px;
     text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
 }
 
 .kit img {
@@ -54,40 +50,40 @@ header {
     border-radius: 10px;
 }
 
-.precio {
-    font-weight: bold;
-}
-
-.antes {
-    text-decoration: line-through;
-    color: #888;
-}
-
-.despues {
-    color: #db9880;
-    font-size: 1.2em;
-}
-
-/* Testimonios */
-.testimonio {
-    background: #fff;
-    padding: 20px;
-    margin: 10px auto;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 500px;
+.benefits {
     text-align: center;
+    background: #db9880;
+    padding: 30px;
+    color: white;
 }
 
-.testimonio-img {
-    width: 60px;
-    height: 60px;
+#pedido {
+    text-align: center;
+    padding: 30px;
+}
+
+form input, form select {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background-color: #593131;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.testimonio {
+    text-align: center;
+    margin: 20px;
+}
+
+.testimonio img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-}
-
-/* Pie de página */
-footer {
-    background-color: #db9880;
-    padding: 20px;
-    color: #fff;
 }
