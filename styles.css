@@ -85,7 +85,7 @@ header {
 .btn {
     display: inline-block;
     background: var(--secondary);
-    color: var(--primary);
+    color: var(--secondary);
     padding: 12px 30px;
     border-radius: 30px;
     text-decoration: none;
