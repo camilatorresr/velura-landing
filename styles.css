@@ -4,89 +4,42 @@ body {
     color: #593131;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background: #db9880;
-}
-
-.logo {
-    height: 50px;
-}
-
-.whatsapp-btn {
-    background: #593131;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 40px;
-}
-
-.kits-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.kit {
-    background: white;
+    background-color: #db9880;
     padding: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 22%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #ccc;
-}
-
-.kit img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.benefits {
-    background: #db9880;
     color: white;
-    padding: 20px;
-    text-align: center;
 }
 
-form {
+section {
+    padding: 40px 20px;
+}
+
+.testimonios-container {
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
-
-form input, form select {
-    margin: 10px 0;
-    padding: 10px;
-}
-
-button {
-    background: #593131;
-    color: white;
-    padding: 15px;
-    border: none;
-    cursor: pointer;
+    justify-content: center;
+    gap: 20px;
 }
 
 .testimonio {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
 }
 
 .testimonio img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #db9880;
+    padding: 10px;
+    color: white;
 }
