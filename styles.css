@@ -1,58 +1,51 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f6edea;
+    color: #593131;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background: #ff4f9a;
-    padding: 10px;
+    background-color: #db9880;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+.btn-header {
+    background-color: #593131;
+    color: #f6edea;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 .hero {
-    background: #ffe6f0;
-    padding: 30px;
-}
-
-.hero h1 {
-    color: #d4006e;
-}
-
-.hero img {
-    max-width: 100%;
-    margin: 20px 0;
+    padding: 50px 20px;
 }
 
 .btn {
-    display: inline-block;
-    background: #d4006e;
-    color: white;
-    padding: 10px 20px;
+    background-color: #593131;
+    color: #f6edea;
+    padding: 15px 30px;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .kit {
-    border: 2px solid #d4006e;
-    padding: 15px;
-    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
     width: 80%;
+    border-radius: 10px;
 }
 
 .precio {
@@ -61,25 +54,32 @@ nav a {
 
 .antes {
     text-decoration: line-through;
-    color: grey;
+    color: #593131;
 }
 
 .despues {
-    color: #d4006e;
+    color: #db9880;
     font-weight: bold;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+#pedido form {
+    background: #fff;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
 }
 
 button {
-    background: #d4006e;
-    color: white;
-    border: none;
+    background-color: #db9880;
+    color: #fff;
     padding: 10px;
-    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #593131;
+    color: #f6edea;
+    padding: 10px;
 }
