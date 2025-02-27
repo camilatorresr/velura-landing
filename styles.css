@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #ff4f9a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: #ffe6f0;
+    padding: 30px;
+}
+
+.hero h1 {
+    color: #d4006e;
+}
+
+.hero img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #d4006e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.kit {
+    border: 2px solid #d4006e;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.antes {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.despues {
+    color: #d4006e;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background: #d4006e;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}

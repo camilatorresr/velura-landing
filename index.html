@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Especial - Velura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <img src="logo.png" alt="Velura Logo" class="logo">
+        <nav>
+            <a href="#kits">Kits</a>
+            <a href="#pedido">Comprar</a>
+            <a href="#testimonios">Testimonios</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <section class="hero">
+        <h1>✨ Promoción Especial Día de la Mujer ✨</h1>
+        <p>Descubre nuestros kits irresistibles con envío gratis y pago contraentrega.</p>
+        <img src="kits.jpg" alt="Imagen de los kits Velura">
+        <a href="#pedido" class="btn">¡Elige tu Kit!</a>
+    </section>
+
+    <!-- DESCRIPCIÓN DE KITS -->
+    <section id="kits">
+        <h2>Elige el kit perfecto para ti</h2>
+        <div class="kit">
+            <h3>Kit Placer Absoluto</h3>
+            <p>Incluye: Lubricante, splash, crema, lencería o disfraz, vibrador o succionador.</p>
+            <p class="precio"><span class="antes">$200,000</span> <span class="despues">$150,000</span></p>
+        </div>
+        <div class="kit">
+            <h3>Kit Seducción Perfecta</h3>
+            <p>Incluye: Lencería o disfraz, vibrador, lubricante, splash.</p>
+            <p class="precio"><span class="antes">$180,000</span> <span class="despues">$135,000</span></p>
+        </div>
+        <!-- Agrega más kits aquí -->
+    </section>
+
+    <!-- FORMULARIO DE PEDIDO -->
+    <section id="pedido">
+        <h2>Haz tu pedido</h2>
+        <form id="orderForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="kit">Selecciona tu kit:</label>
+            <select id="kit">
+                <option value="placer_absoluto">Kit Placer Absoluto</option>
+                <option value="seduccion_perfecta">Kit Seducción Perfecta</option>
+            </select>
+
+            <button type="submit">Comprar con pago contraentrega</button>
+        </form>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios">
+        <h2>Lo que dicen nuestras clientas</h2>
+        <div class="testimonio">
+            <p>"La mejor compra que he hecho, todo de excelente calidad y super sexy."</p>
+            <p>- Laura G.</p>
+        </div>
+        <div class="testimonio">
+            <p>"Mi pareja quedó encantada, definitivamente volveré a comprar."</p>
+            <p>- Andrés R.</p>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2025 Velura - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
