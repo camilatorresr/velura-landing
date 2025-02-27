@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f6edea;
@@ -7,79 +8,69 @@ body {
     text-align: center;
 }
 
+/* Encabezado */
 header {
     background-color: #db9880;
-    padding: 20px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .logo {
-    width: 150px;
-}
-
-.btn-header {
-    background-color: #593131;
-    color: #f6edea;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.hero {
-    padding: 50px 20px;
+    height: 50px;
+    margin-left: 20px;
 }
 
 .btn {
     background-color: #593131;
-    color: #f6edea;
-    padding: 15px 30px;
+    color: #fff;
+    padding: 10px 20px;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
+    border-radius: 5px;
 }
 
-.kit {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px auto;
+/* Sección principal */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero-image {
     width: 80%;
-    border-radius: 10px;
+    max-width: 400px;
 }
 
-.precio {
-    font-size: 18px;
-}
-
-.antes {
-    text-decoration: line-through;
-    color: #593131;
-}
-
-.despues {
-    color: #db9880;
-    font-weight: bold;
-}
-
-#pedido form {
+/* Sección de kits */
+.kit {
     background: #fff;
     padding: 20px;
-    width: 80%;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
 }
 
-button {
-    background-color: #db9880;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+/* Testimonios */
+.testimonio {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
 }
 
+.testimonio-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Pie de página */
 footer {
-    background-color: #593131;
-    color: #f6edea;
-    padding: 10px;
+    background-color: #db9880;
+    padding: 20px;
+    color: #fff;
 }
